@@ -1,0 +1,15 @@
+from google.protobuf.text_format import WIRETYPE_LENGTH_DELIMITED
+
+
+def boas_vindas(nome):
+    print(f"Olá, {nome}! Seja bem-vindo!")
+
+nome_digitado = input("Digite seu nome: ")
+boas_vindas(nome_digitado)
+
+def soma(num_a, num_b):
+    soma = num_a + num_b
+    return soma
+
+resultado_soma = soma(5, 3)
+print(resultado_soma)
