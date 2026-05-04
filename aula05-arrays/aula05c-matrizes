@@ -1,0 +1,10 @@
+musicas = [
+    ["Novemmber Rain", "Guns'n Roses"],
+    ["Breath", "Pink Floyd"],
+    ["6a sinf", "Beethoven"]
+]
+
+for musica in musicas:
+    for info in musica:
+        print(info)
+    print()
